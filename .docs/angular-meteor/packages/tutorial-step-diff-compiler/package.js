@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.registerBuildPlugin({
-  name: "mdg:tutorial-step-diffs-plugin",
+  name: "mdg_tutorial-step-diffs-plugin",
   sources: ["plugin.js"],
   npmDependencies: {
     "am-git-patch-parser": "0.2.1"
